@@ -25,7 +25,7 @@ VALUES
 
 select
 	min(StepNumber) as MinStepNumber,
-	max(StepNumber) as MinStepNumber,
+	max(StepNumber) as MaxStepNumber,
 	Status,
 	Count(*) as ConsecutiveCount
 from (
